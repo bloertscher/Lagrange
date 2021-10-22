@@ -32,17 +32,35 @@
 }
 
 .header a:hover {
-  color:black;
+  color: #555;
+}
+
+.head-wrap {
+  padding: 1.5em;
+  background-image: url(/assets/img/leaf-reflect.jpg);
+  background-repeat: no-repeat;
+  background-size: 140%;
+  background-position: left 0% bottom 47%;
+  /* Backup if image fails */
+  background-color: #7fc5f6;
+  border-radius: 5px;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  margin-block-end: 0.75em;
+  margin-block-start: 0.75em;
 }
 
 .header-title a {
-  font-size: 2rem;
+  color: black;
   text-decoration: none;
-  color: $body-color;
 }
 
 .header-subtitle {
-  color: $light-gray-color;
+  color: $dark-gray-color;
+  margin-block-start: 1.0em;
+  margin-block-end: 0.5em;
 }
 
 /*
