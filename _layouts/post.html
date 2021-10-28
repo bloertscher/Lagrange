@@ -6,7 +6,7 @@ layout: default
   {{ page.title }}
 </h1>
 {% if page.image %}
-  <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
+  <img src="{{ site.url }}/{{ page.image }}">
   {% if page.photographer_link and page.photographer %}
   <figcaption>Photo by <a href="{{ page.photographer_link }}">{{ page.photographer }}</a> at <a href="https://unsplash.com">Unsplash</a></figcaption>
   {% endif %}

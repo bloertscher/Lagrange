@@ -21,6 +21,7 @@ permalink:           date
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+url: https://blog.brettl.net
 title: Thoughtful Measures
 subtitle: Desperate times call for thoughtful measures.
 description: >-
