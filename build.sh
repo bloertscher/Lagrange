@@ -1,3 +1,3 @@
 #!/bin/sh
 
-bundle exec jekyll build -d /srv/blog/ "$@"
+bundle exec jekyll build "$@"
