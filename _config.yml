@@ -21,7 +21,7 @@ permalink:           date
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-url: https://blog.brettl.net
+# url: 
 title: Thoughtful Measures
 subtitle: Desperate times call for thoughtful measures.
 description: >-
@@ -33,5 +33,8 @@ author: Brett Loertscher
 #feed:
 #  path: rss-feed.xml
 
+hide_post_share: true
+hide_related_posts: true
+
 # Exclude files from generated site
-exclude: ["*.sh"]
+exclude: ["*.sh", LICENSE.md, README.md, lagrange.gemspec]
